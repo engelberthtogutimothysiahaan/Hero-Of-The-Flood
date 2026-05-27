@@ -19,7 +19,7 @@ public class FirstSceneMenu : MonoBehaviour
         Debug.Log("Exiting the game...");
         Application.Quit();
 
-        // Perlu diingat: Application.Quit() hanya berfungsi setelah game dibuild.
-        // Saat dijalankan di Editor, tidak akan menutup Unity Editor.
+        
+        
     }
 }
