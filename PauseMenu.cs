@@ -72,8 +72,6 @@ public class PauseMenu : MonoBehaviour
     Debug.Log("Loading Main Menu...");
     Time.timeScale = 1f; // Sangat penting untuk mereset Time.timeScale!
 
-    Cursor.visible = true;
-    Cursor.lockState = CursorLockMode.None;
 
     
     SceneManager.LoadScene("Main Menu"); 
