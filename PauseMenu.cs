@@ -70,7 +70,7 @@ public class PauseMenu : MonoBehaviour
    public void QuitGame()
     {
     Debug.Log("Loading Main Menu...");
-    Time.timeScale = 1f; // Sangat penting untuk mereset Time.timeScale!
+    Time.timeScale = 1f; 
 
 
     
